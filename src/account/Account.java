@@ -25,7 +25,18 @@ public class Account {
             user=givenUser;
             //To create an account the initial balance must be greater than 50.       
         }
-
+        public void Balance(double initialBalance){
+        
+       double balance= initialBalance * interestRate;
+        }
+public String Cheakbalance(double initialBalance){
+if(initialBalance >50){
+    return "Account can be created";
+}
+else{
+return "Account cannot be created";
+}
+}
      /**The method for depositing amount and 
       * updating balance*/
         public void credit(double amount)
@@ -40,5 +51,5 @@ public class Account {
             balance=balance-amount;
 
         } 
-    
+ 
 }//class end

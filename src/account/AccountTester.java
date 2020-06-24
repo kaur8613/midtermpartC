@@ -25,10 +25,12 @@ public class AccountTester {
         sc.nextLine();
         String user=sc.nextLine();
         /* modify the code to store 5 accounts in array and print balance and monthly Interest for the available balance */
-        
+          System.out.println("Balance with interest rate" + a.Cheakbalance(double);
         Account a=new Account(bal,user);
        
         System.out.println("The balance is: "+a.balance);  
+        System.out.println("balance with interst rate" + a.Balance);
         System.out.println("The InterestRate per month is "+a.interestRate);
+    }
     }
 }
